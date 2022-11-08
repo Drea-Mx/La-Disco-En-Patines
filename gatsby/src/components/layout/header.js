@@ -32,17 +32,13 @@ const Header = () => {
 }
 
 const HeaderContainer = styled.header`
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
     .left {
         display: flex;
         align-items: center;
         padding: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
         p {
             font-size: 1.333333rem;
         }
@@ -56,6 +52,9 @@ const HeaderContainer = styled.header`
         padding: 40px;
         display: flex;
         font-size: 1.333rem;
+        position: fixed;
+        top: 0;
+        right: 0;
         a {
             text-transform: uppercase;
             margin-left: 5px;

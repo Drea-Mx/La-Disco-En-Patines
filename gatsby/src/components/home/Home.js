@@ -1,11 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion"
 
 const Home = () => {
     return(
         <HomeContainer>
-            <img className="logo" src="logo1.svg" alt='La Disco en patines logo' />
-            <img className="personaje" src="icono.svg" alt='La Disco en patines personaje' />
+            <motion.img className="logo" src="logo1.svg" alt='La Disco en patines logo'
+                initial={{ y: "-100%" }}
+                animate={{ y: "10px" }}
+                transition={{ delay: 0, duration: 1, repeat: 0 }}
+            />
+            <motion.img className="personaje" src="icono.svg" alt='La Disco en patines personaje'
+                initial={{ x: "-100vw" }}
+                animate={{ x: "calc(0vw)" }}
+                transition={{ delay: 1, duration: 0.8, repeat: 0 }}
+            />
         </HomeContainer>
     )
 }
