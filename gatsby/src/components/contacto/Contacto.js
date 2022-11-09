@@ -61,7 +61,7 @@ const ContactoContainer = styled.section`
     }
     .contenedor {
         margin-top: 150px;
-        margin-left: 50px;
+        margin-left: 0px;
         text-align: center;
         @media (max-width: 680px) {
             margin: 180px 10px;
@@ -115,6 +115,8 @@ const ContactoContainer = styled.section`
                     margin-bottom: 10px;
                     padding: 10px;
                     text-align: center;
+                    border-radius: 0;
+                    border: none;
                     &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
                         font-family: var(--italic);
                         font-size: 32px;
@@ -152,6 +154,8 @@ const ContactoContainer = styled.section`
                     padding: 10px;
                     height: 120px;
                     text-align: center;
+                    border-radius: 0;
+                    border: none;
                     &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
                         font-family: var(--italic);
                         font-size: 32px;

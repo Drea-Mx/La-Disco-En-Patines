@@ -22,7 +22,18 @@ const QueEs = () => {
                 </div>
             </Link>
             <h1>¿QUE ES LA DISCO EN PATINES?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum venenatis odio, et varius velit aliquet nec. Nulla vel enim dignissim, bibendum arcu nec, dictum dolor. Aenean at dolor neque. Etiam vitae sapien in dolor commodo luctus. Quisque auctor egestas pretium. Ut viverra nisi eget enim elementum, id sollicitudin risus luctus. Nam ornare, lorem nec lobortis venenatis, urna nisl sodales tellus, vel dictum odio risus eget nulla.</p>
+            <div className="textoo">
+                <p>La comunidad LGBTQI+ celebra durante el mes de junio el orgullo de ser así como los avances que hemos logrado a través de la lucha por el reconocimiento de derechos, que activistas, asociaciones y civiles han alcanzado a través de las últimas décadas.</p>
+
+                    <p>La falta de visibilidad social nos lleva a crear, a convocar a los mejores, a sumar, a generar una experiencia multidisciplinaria dentro de un ambiente sano y familiar. </p>
+
+                    <p>Éste tipo de experiencias suman a exponencializar la visibilidad social y la inclusión, generando en gran medida beneficios, como lo son: el contrarrestar y erradicar la homofobia, los crímenes de odio y los ataques a los miembros de nuestra comunidad LGBTQI+.</p>
+
+                    <p>Trabajemos en seguir sumando en la representatividad de los miembros de la comunidad, para efectos de sumar esfuerzos, reconocer trayectorias y ser siempre una plataforma en donde todes tengan cabida y la oportunidad de crecimiento, hasta lograr ser una sociedad inclusiva en todos los aspectos.</p>
+
+                    <p>Siempre agradecidos por el apoyo de grandes alianzas gubernamentales y comerciales, ya que sin ellos la materialización de este objetivo no sería posible.</p>
+            </div>
+
         </QueEsContainer>
     )
 }
@@ -48,20 +59,22 @@ const QueEsContainer = styled.section`
             font-size: 32px;
         }
     }
-    p {
-        font-size: 44px;
-        line-height: 52.8px;
+    .textoo {
         text-align: center;
         height: 450px;
         overflow-y: scroll;
         padding-bottom: 100px;
-        @media (max-width: 1020px) {
-            font-size: 34px;
-        }
-        @media (max-width: 850px) {
+        p {
             font-size: 24px;
+            line-height: 28.8px;
+            margin-bottom: 30px;
+            @media (max-width: 650px) {
+                font-size: 20px;
+                line-height: 22.8px;
+            }
         }
     }
+    
     .logo {
         display: block;
         padding: 0 50px;
