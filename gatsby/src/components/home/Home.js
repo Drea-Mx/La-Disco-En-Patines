@@ -7,7 +7,7 @@ const Home = () => {
         <HomeContainer>
             <motion.img className="logo" src="logo1.svg" alt='La Disco en patines logo'
                 initial={{ y: "-100%" }}
-                animate={{ y: "10px" }}
+                animate={{ y: "0" }}
                 transition={{ delay: 0, duration: 1, repeat: 0 }}
             />
             <motion.img className="personaje" src="icono.svg" alt='La Disco en patines personaje'
@@ -29,7 +29,7 @@ width: 100%;
             padding: 50px;
         }
         @media (max-width: 650px) {
-            margin-top: 100px;
+            margin-top: 50px;
         }
     }
     .personaje {

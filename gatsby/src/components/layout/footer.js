@@ -253,7 +253,7 @@ const FooterContainer = styled.footer`
             width: 300px;
         }
         @media (max-width: 860px) {
-            bottom: 100px;
+            bottom: 50px;
         }
     }
     button.open .links{
@@ -262,7 +262,8 @@ const FooterContainer = styled.footer`
             left: 330px !important;
         }
         @media (max-width: 860px) {
-            left: 0px !important;
+            left: -15px !important;
+            bottom: 5px;
         }
     }
     button.open .menu{

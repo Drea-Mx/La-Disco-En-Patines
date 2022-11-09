@@ -212,10 +212,13 @@ const ContactoContainer = styled.section`
             justify-content: flex-start;
             align-items: flex-end;
             padding-right: 50px;
+            @media (max-width: 850px) {
+                    padding-right: 0;
+                }
             .personaje {
                 width: 300px;
                 @media (max-width: 990px) {
-                    width: 150px;
+                    width: 120px;
                 }
             }
         }

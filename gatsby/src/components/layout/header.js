@@ -49,7 +49,7 @@ const HeaderContainer = styled.header`
     }
 
     ul.lang {
-        padding: 40px;
+        padding: 30px;
         display: flex;
         font-size: 1.333rem;
         position: fixed;
