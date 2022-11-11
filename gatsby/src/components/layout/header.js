@@ -55,6 +55,7 @@ const HeaderContainer = styled.header`
         position: fixed;
         top: 0;
         right: 0;
+        opacity: 0;
         a {
             text-transform: uppercase;
             margin-left: 5px;
