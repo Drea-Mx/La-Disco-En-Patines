@@ -6,7 +6,7 @@ const Home = () => {
     return(
         <HomeContainer>
             <motion.img className="logo" src="logo1.svg" alt='La Disco en patines logo'
-                initial={{ y: "-100%" }}
+                initial={{ y: "-110%" }}
                 animate={{ y: "0" }}
                 transition={{ delay: 0, duration: 1, repeat: 0 }}
             />

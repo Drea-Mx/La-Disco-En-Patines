@@ -13,14 +13,14 @@ const QueEs = () => {
                     transition={{ delay: 0, duration: 0.5, repeat: 0 }}
                 />
             </Link>
-            <Link className="disco">
+            <a rel="noreferrer" href="https://youtu.be/RnXAuT6m_y4" target='_blank' className="disco">
                 <img src="disco.png" alt='Esfera Disco' />
                 <div className="texto">
                     <i className="ve">VE EL RESUMEN DEL</i>
                     <span className="capitulo">CAPITULO</span>
                     <i className="monterrey">MONTERREY</i>
                 </div>
-            </Link>
+            </a>
             <h1>¿QUE ES LA DISCO EN PATINES?</h1>
             <div className="textoo">
                 <p>La comunidad LGBTQI+ celebra durante el mes de junio el orgullo de ser así como los avances que hemos logrado a través de la lucha por el reconocimiento de derechos, que activistas, asociaciones y civiles han alcanzado a través de las últimas décadas.</p>
