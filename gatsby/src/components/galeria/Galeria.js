@@ -246,16 +246,7 @@ const Galeria = () => {
                     </div>
                 </div>
             </motion.div>
-            <motion.h2
-                initial={{ x: "-100%" }}
-                animate={{ x: "0" }}
-                transition={{ delay: 0.6, duration: 0.5, repeat: 0 }}
-            >FOTO LIDERES  <span>X MARCELO ALVAREZ STUDIO</span></motion.h2>
-            <motion.h2
-                initial={{ x: "-100%" }}
-                animate={{ x: "0" }}
-                transition={{ delay: 0.7, duration: 0.5, repeat: 0 }}
-            >FOTO GENTE  <span>X MARCELO ALVAREZ STUDIO</span></motion.h2>
+            
 
         </GaleriaContainer>
     )
