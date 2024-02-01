@@ -19,13 +19,15 @@ const CapituloMonterrey = () => {
             <div className="iz">
                     <h1 className="titulo">Principaales Aliadx<img src="flechaAbajo.png" alt="flecha abajo" /></h1>
                     <div className="sponsor">
-                        <StaticImage
-                            src="../../assets/images/conarte.png"
-                            alt="CONARTE"
-                            placeholder="blurred"
-                            layout="fullWidth"
-                            loading='lazy'
-                        />
+                        <a href="https://conarte.org.mx/">
+                            <StaticImage
+                                src="../../assets/images/conarte.png"
+                                alt="CONARTE"
+                                placeholder="blurred"
+                                layout="fullWidth"
+                                loading='lazy'
+                            />
+                        </a>
                     </div>
                     <h2 className="titulo">Principaales Aliadx<img src="flechaAbajo.png" alt="flecha abajo" /></h2>
                     <div className="sponsor">
