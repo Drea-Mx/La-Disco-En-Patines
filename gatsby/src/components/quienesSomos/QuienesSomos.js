@@ -46,7 +46,9 @@ const QuienesSomos = () => {
                     </div>
                     
                     <div className="minuta">
-                        <img className="logoMinuta" src="minuta.svg" alt="Logo de minuta" />
+                        <a href="https://minuta.design/">
+                            <img className="logoMinuta" src="minuta.svg" alt="Logo de minuta" />
+                        </a>
                         <div className="texto">
                             <h2><img src="flechaAbajo.png" alt='flecha Arriba' /> <span>Creatividad</span> <img src="amperson.png" alt='flecha Arriba' /></h2>
                             <h2>Producción</h2>
