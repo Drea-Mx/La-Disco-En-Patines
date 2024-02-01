@@ -61,8 +61,6 @@ const QueEsContainer = styled.section`
     }
     .textoo {
         text-align: center;
-        height: 450px;
-        overflow-y: scroll;
         padding-bottom: 100px;
         p {
             font-size: 24px;
