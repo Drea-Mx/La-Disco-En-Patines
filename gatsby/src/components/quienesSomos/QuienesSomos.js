@@ -17,8 +17,8 @@ const QuienesSomos = () => {
 
             <div className="contenedor">
             <div className="iz">
-                    <h1 className="titulo">Dirección General<img src="flechaAbajo.png" alt="flecha abajo" /></h1>
-                    <div className="equipo">
+                    <h1 hidden className="titulo">Dirección General<img src="flechaAbajo.png" alt="flecha abajo" /></h1>
+                    <div hidden className="equipo">
                         <div className="miembro">
                             <div className="image">
                                 <StaticImage
@@ -54,7 +54,7 @@ const QuienesSomos = () => {
                             <h2>Producción</h2>
                         </div>
                     </div>
-                    <div className="equipo">
+                    <div hidden className="equipo">
                         <div className="miembro">
                             <h3>Relaciones Comerciales<img src="flechaAbajo.png" alt="Flecha Abajo" /></h3>
                             <div className="image">
@@ -82,7 +82,7 @@ const QuienesSomos = () => {
                             <h2>Dinorah</h2>
                         </div>
                     </div>
-                    <div className="equipo">
+                    <div hidden className="equipo">
                         <div className="miembro">
                             <h3>Documentación <img src="flechaAbajo.png" alt="Flecha Abajo" /></h3>
                             <div className="image">
