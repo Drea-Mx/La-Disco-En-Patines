@@ -206,7 +206,8 @@ const QuienesSomosContainer = styled.section`
             .titulo {
                 font-size: 64px;
                 font-family: var(--italic);
-                display: flex;
+                /* display: flex; */
+                display: none;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
@@ -227,7 +228,8 @@ const QuienesSomosContainer = styled.section`
                 }
             }
             .equipo {
-                display: grid;
+                /* display: grid; */
+                display: none;
                 grid-template-columns: 1fr 1fr;
                 grid-gap: 50px;
                 margin-bottom: 30vh;
