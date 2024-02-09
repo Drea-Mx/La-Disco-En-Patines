@@ -77,7 +77,7 @@ const QuienesSomosContainer = styled.section`
             height: 100%;
             margin-bottom: 150px;
             .minuta {
-                margin-bottom: 30vh;
+                
                 .logoMinuta {
                     margin-bottom: 100px;
                     @media (max-width: 850px) {
