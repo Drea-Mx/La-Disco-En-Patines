@@ -17,34 +17,6 @@ const QuienesSomos = () => {
 
             <div className="contenedor">
             <div className="iz">
-                    <h1 className="titulo" style="display: none;">Dirección General<img src="flechaAbajo.png" alt="flecha abajo" /></h1>
-                    <div className="equipo" style="display: none;">
-                        <div className="miembro">
-                            <div className="image">
-                                <StaticImage
-                                    src="../../assets/images/Arturo.jpg"
-                                    alt="ARTURO R."
-                                    placeholder="blurred"
-                                    layout="fullWidth"
-                                    loading='lazy'
-                                />
-                            </div>
-                            <h2>ARTURO R.</h2>
-                        </div>
-                        <div className="miembro">
-                            <div className="image">
-                                <StaticImage
-                                    src="../../assets/images/miralda.jpg"
-                                    alt="MIRALDA S.S"
-                                    placeholder="blurred"
-                                    layout="fullWidth"
-                                    loading='lazy'
-                                />
-                            </div>
-                            <h2>MIRALDA S.S</h2>
-                        </div>
-                    </div>
-                    
                     <div className="minuta">
                         <a href="https://minuta.design/">
                             <img className="logoMinuta" src="minuta.svg" alt="Logo de minuta" />
@@ -52,62 +24,6 @@ const QuienesSomos = () => {
                         <div className="texto">
                             <h2><img src="flechaAbajo.png" alt='flecha Arriba' /> <span>Creatividad</span> <img src="amperson.png" alt='flecha Arriba' /></h2>
                             <h2>Producción</h2>
-                        </div>
-                    </div>
-                    <div className="equipo" style="display: none;">
-                        <div className="miembro">
-                            <h3>Relaciones Comerciales<img src="flechaAbajo.png" alt="Flecha Abajo" /></h3>
-                            <div className="image">
-                                <StaticImage
-                                    src="../../assets/images/Alberto.jpg"
-                                    alt="Alberto"
-                                    placeholder="blurred"
-                                    layout="fullWidth"
-                                    loading='lazy'
-                                />
-                            </div>
-                            <h2>Alberto</h2>
-                        </div>
-                        <div className="miembro">
-                            <h3>Relaciones Institucionales<img src="flechaAbajo.png" alt="Flecha Abajo" /></h3>
-                            <div className="image">
-                                <StaticImage
-                                    src="../../assets/images/Dinorah.jpg"
-                                    alt="Dinorah"
-                                    placeholder="blurred"
-                                    layout="fullWidth"
-                                    loading='lazy'
-                                />
-                            </div>
-                            <h2>Dinorah</h2>
-                        </div>
-                    </div>
-                    <div className="equipo" style="display: none;">
-                        <div className="miembro">
-                            <h3>Documentación <img src="flechaAbajo.png" alt="Flecha Abajo" /></h3>
-                            <div className="image">
-                                <StaticImage
-                                    src="../../assets/images/Manuel.jpg"
-                                    alt="Alberto"
-                                    placeholder="blurred"
-                                    layout="fullWidth"
-                                    loading='lazy'
-                                />
-                            </div>
-                            <h2>Manuel</h2>
-                        </div>
-                        <div className="miembro">
-                            <h3>Experiencia Online<img src="flechaAbajo.png" alt="Flecha Abajo" /></h3>
-                            <div className="image">
-                                <StaticImage
-                                    src="../../assets/images/Mara.jpg"
-                                    alt="Dinorah"
-                                    placeholder="blurred"
-                                    layout="fullWidth"
-                                    loading='lazy'
-                                />
-                            </div>
-                            <h2>Mara O.</h2>
                         </div>
                     </div>
                 </div>
